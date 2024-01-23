@@ -1,32 +1,31 @@
-body
-{
-	background-color: silver; 
+body {
+	background: linear-gradient(90deg, rgba(2, 0, 36, 1) 0%, rgba(9, 9, 121, 1) 35%, rgba(0, 212, 255, 1) 100%);
 	font-family: Cursive;
 	font-size: 20px;
 	color: white;
-	text-align:center;
+	text-align: center;
 }
 
-h1
-{
+h1 {
 	font-size: 48px;
 	color: red !important;
 }
 
-/* Nieodwiedzony link */
-a:link
-{
-	color: green;
+button {
+	background-color: #eb150e;
+	/* Green */
+	border: none;
+	color: white;
+	padding: 15px 32px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 16px;
 }
 
-/* Odwiedzony link */
-a:visited
-{
-	color:green;
-}
-
-/* Link po najechaniu kursorem */
-a:hover
-{
-	color: blue;
+center {
+	margin: auto;
+	width: 50%;
+	border: 3px solid green;
+	padding: 10px;
 }
